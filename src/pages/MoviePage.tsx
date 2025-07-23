@@ -4,7 +4,7 @@ import FlippingProductCard from "@/components/MovieCArd";
 import { Button } from "@/components/ui/button";
 const MoviePage = () => {
   return (
-    <div className="bg-gray-950  p-18 gap-10 flex flex-col">
+    <div className="bg-sky-950  p-18 gap-10 flex flex-col">
       <img src={hero} alt="movie-poster" className=" rounded-[25px]" />
       <p className="text-white">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati et
@@ -13,8 +13,8 @@ const MoviePage = () => {
         animi?
       </p>
       <div>
-        <Button></Button>
-        <Button></Button>
+        <Button>Add to Favorite</Button>
+        <Button>Add to Watchlist</Button>
       </div>
       <p className="text-white font-bold text-2xl">Overview</p>
       <div className="grid grid-row-1 gap-4 text-white w-full">

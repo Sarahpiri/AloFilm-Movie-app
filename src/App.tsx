@@ -1,6 +1,6 @@
-
 import Navbar from "./components/Navbar";
-import MoviePage from "./pages/MoviePage";
+import SearchResults from "./pages/SearchResults";
+// import MoviePage from "./pages/MoviePage";
 // import Home from "./pages/Home";
 
 function App() {
@@ -8,7 +8,8 @@ function App() {
     <div className="w-full h-screen">
       <Navbar />
       {/* <Home/> */}
-      <MoviePage />
+      {/* <MoviePage /> */}
+      <SearchResults />
     </div>
   );
 }
