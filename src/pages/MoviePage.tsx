@@ -1,7 +1,7 @@
 import ActorSlider from "@/components/ActorSlider";
 import hero from "../assets/hero-bg.jpg";
 import { Button } from "@/components/ui/button";
-import MovieCard from "@/components/MovieCArd";
+import MovieCard from "@/components/MovieCard";
 
 const MoviePage = () => {
   return (
