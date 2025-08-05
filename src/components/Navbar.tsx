@@ -92,14 +92,14 @@ const Navbar = () => {
                   <PersonIcon className="h-6 w-6 rounded-full bg-gray-700 text-white p-1" />
                 </Button>
               </DropdownMenuTrigger>
-              <DropdownMenuContent align="end" className="w-48">
-                <DropdownMenuItem className="font-medium">
+              <DropdownMenuContent align="end" className="w-48 z-50 bg-0">
+                <DropdownMenuItem className="font-medium hover:bg-[#5DE9CC] hover:text-black cursor-pointer text-white">
                   Sign up
                 </DropdownMenuItem>
-                <DropdownMenuItem>Log in</DropdownMenuItem>
-                <DropdownMenuItem>Settings</DropdownMenuItem>
-                <DropdownMenuItem>Help Center</DropdownMenuItem>
-                <DropdownMenuItem>Contact</DropdownMenuItem>
+                <DropdownMenuItem className="font-medium hover:bg-[#5DE9CC] hover:text-black cursor-pointer text-white">Log in</DropdownMenuItem>
+                <DropdownMenuItem className="font-medium hover:bg-[#5DE9CC] hover:text-black cursor-pointer text-white">Settings</DropdownMenuItem>
+                <DropdownMenuItem className="font-medium hover:bg-[#5DE9CC] hover:text-black cursor-pointer text-white">Help Center</DropdownMenuItem>
+                <DropdownMenuItem className="font-medium hover:bg-[#5DE9CC] hover:text-black cursor-pointer text-white">Contact</DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
           </div>

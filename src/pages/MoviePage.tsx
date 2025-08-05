@@ -1,7 +1,8 @@
 import ActorSlider from "@/components/ActorSlider";
 import hero from "../assets/hero-bg.jpg";
-import FlippingProductCard from "@/components/MovieCArd";
 import { Button } from "@/components/ui/button";
+import MovieCard from "@/components/MovieCArd";
+
 const MoviePage = () => {
   return (
     <div className="bg-sky-950  p-18 gap-10 flex flex-col">
@@ -29,7 +30,6 @@ const MoviePage = () => {
         </div>
 
         <div className="flex w-1/2 justify-between border-b-1 border-gray-600 pb-2">
-         
           <p className="text-gray-400">Rating</p>
           <p>7.8/10</p>
         </div>
@@ -45,12 +45,10 @@ const MoviePage = () => {
       <div></div>
       <p className="text-white font-bold text-2xl">You Might Also Like</p>
       <div className="flex items-center bg-gray-950 gap-3 ">
-        <FlippingProductCard />
-        <FlippingProductCard />
-        <FlippingProductCard />
-       
+        <MovieCard />
+        <MovieCard />
+        <MovieCard />
       </div>
-      
     </div>
   );
 };

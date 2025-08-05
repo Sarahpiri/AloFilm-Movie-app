@@ -1,4 +1,4 @@
-import FlippingProductCard from "./MovieCArd";
+import FlippingProductCard from "./MovieCard";
 
 const UpcomingMovies = () => {
   return (

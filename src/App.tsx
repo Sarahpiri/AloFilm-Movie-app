@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
-import ActorPage from "./pages/ActorPage";
-import SearchResults from "./pages/SearchResults";
+
+import WatchList from "./pages/WatchList";
+
 // import MoviePage from "./pages/MoviePage";
 // import Home from "./pages/Home";
 
@@ -11,7 +12,8 @@ function App() {
       {/* <Home/> */}
       {/* <MoviePage /> */}
       {/* <SearchResults /> */}
-      <ActorPage />
+      {/* <ActorPage /> */}
+      <WatchList />
     </div>
   );
 }
