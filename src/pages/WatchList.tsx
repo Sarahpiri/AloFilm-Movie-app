@@ -4,7 +4,7 @@ import WatchListTabs from "@/components/WatchlistTabs";
 
 const WatchList = () => {
   return (
-    <div className="bg-sky-950 p-12 flex flex-col gap-10 items-start justify-center">
+    <div className="bg-gray-950  p-12 flex flex-col gap-10 items-start justify-center">
       <p className="text-white font-bold text-2xl">My Watchlist</p>
       <WatchListTabs />
       <div className="flex flex-wrap gap-4">

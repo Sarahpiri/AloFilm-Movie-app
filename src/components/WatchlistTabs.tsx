@@ -17,8 +17,8 @@ export default function WatchListTabs() {
         aria-label="Tabs where selection follows focus "
         selectionFollowsFocus
       >
-        <Tab label="Movie" />
-        <Tab label="TV Show" />
+        <Tab label="Movie" sx={{color:'white'}}/>
+        <Tab label="TV Show" sx={{color:'white'}} />
        
       </Tabs>
     </Box>
